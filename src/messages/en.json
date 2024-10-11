@@ -1,0 +1,55 @@
+{
+  "header": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "title": "Mubarek Seid Juhar",
+    "subtitle": "Software Engineer | Full Stack Developer | Problem Solver",
+    "description": "Passionate about creating innovative solutions and delivering high-quality software products."
+  },
+  "education": {
+    "title": "Education",
+    "bsc": {
+      "degree": "BSc in Software Engineering",
+      "institution": "Microlink Information Technology College",
+      "location": "Mekelle, Tigray, Ethiopia"
+    },
+    "bootcamp": {
+      "program": "Software Engineering 12 Month Bootcamp",
+      "institution": "ALX",
+      "location": "Remote"
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "current": "Currently working on cutting-edge software solutions.",
+    "previous": "Developed and maintained various software projects, improving efficiency and user experience."
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Contact Me",
+    "description": "Fill out the form below to send me a message.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "builtBy": "Built by Mubarek Seid Juhar. Hosted on",
+    "vercel": "Vercel"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
