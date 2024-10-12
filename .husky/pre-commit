@@ -1,0 +1,3 @@
+pnpx lint-staged
+
+printf "\n✅ pre-commit OK\n\n"

@@ -1,0 +1,7 @@
+printf "\n⏳ Install Composer Dependancies\n"
+composer install
+
+printf "\n⏳ Install Pnpm Dependancies\n"
+pnpm i
+
+printf "\n✅ post-merge OK\n\n"

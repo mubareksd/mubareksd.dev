@@ -4,31 +4,84 @@
     "education": "Education",
     "experience": "Experience",
     "projects": "Projects",
+    "skills": "Skills",
     "contact": "Contact",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
   },
   "hero": {
     "title": "Mubarek Seid Juhar",
-    "subtitle": "Software Engineer | Full Stack Developer | Problem Solver",
-    "description": "Passionate about creating innovative solutions and delivering high-quality software products."
+    "subtitle": "Lead Software Developer | Full Stack Engineer | Problem Solver",
+    "description": "Experienced Software Engineer adept in JavaScript, PHP, and Python with a strong understanding of systems, testing, algorithms, and coding. Passionate about creating innovative solutions and delivering high-quality software products."
   },
   "education": {
     "title": "Education",
-    "bsc": {
-      "degree": "BSc in Software Engineering",
-      "institution": "Microlink Information Technology College",
-      "location": "Mekelle, Tigray, Ethiopia"
-    },
-    "bootcamp": {
-      "program": "Software Engineering 12 Month Bootcamp",
+    "certSE": {
+      "degree": "Certification in Software Engineering",
       "institution": "ALX",
-      "location": "Remote"
+      "location": "Addis Ababa, Ethiopia",
+      "period": "05/2022 - 06/2023",
+      "detail1": "Gained in-depth knowledge of web development fundamentals, including HTML, CSS, JavaScript, Python, Flask, and React.",
+      "detail2": "Developed a strong understanding of back-end development with Node.js and Express.",
+      "detail3": "Completed several projects, including a full-stack web application and a RESTful API."
+    },
+    "bsc": {
+      "degree": "B.Sc in Software Engineering",
+      "institution": "Microlink Information Technology",
+      "location": "Mekelle, Tigray, Ethiopia",
+      "period": "10/2017 - 05/2023",
+      "detail1": "Gained a strong foundation in software engineering principles and practices.",
+      "detail2": "Developed proficiency in a variety of programming languages, including Java, Python, and C++.",
+      "detail3": "Learned how to design, develop, and test software applications."
     }
   },
   "experience": {
     "title": "Work Experience",
-    "current": "Currently working on cutting-edge software solutions.",
-    "previous": "Developed and maintained various software projects, improving efficiency and user experience."
+    "jobs": [
+      {
+        "company": "Haron Computer",
+        "position": "Lead Software Developer",
+        "location": "Addis Ababa, Ethiopia",
+        "period": "02/2024 - Present",
+        "responsibility1": "Spearheaded the development of web applications using Python, Flask, Frappe, and ERPNext",
+        "responsibility2": "Utilized Jinja templates for front-end development, ensuring seamless user interfaces",
+        "responsibility3": "Implemented best practices in software development to ensure efficiency and maintainability",
+        "responsibility4": "Collaborated with stakeholders to design and deploy scalable solutions",
+        "responsibility5": "Led a team of software engineers in project development and implementation"
+      },
+      {
+        "company": "Sabawyan Tech",
+        "position": "Software Engineer",
+        "location": "Mekelle, Tigray, Ethiopia",
+        "period": "07/2019 - 11/2023",
+        "responsibility1": "Developed and maintained web applications using PHP, CodeIgniter, React.js and Express.js",
+        "responsibility2": "Worked on a team of engineers to design and implement new features",
+        "responsibility3": "Successfully delivered several projects on time and within budget",
+        "responsibility4": "Led a team of software engineers in the development and maintenance of web applications",
+        "responsibility5": "Improved efficiency by 30% through optimized coding"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": [
+      {
+        "name": "Languages"
+      },
+      {
+        "name": "Frameworks"
+      },
+      {
+        "name": "Databases"
+      },
+      {
+        "name": "Other"
+      }
+    ]
   },
   "projects": {
     "title": "Projects",
@@ -44,12 +97,11 @@
     "send": "Send Message"
   },
   "footer": {
-    "builtBy": "Built by Mubarek Seid Juhar. Hosted on",
-    "vercel": "Vercel"
+    "builtBy": "Built by Mubarek Seid Juhar."
   },
-  "theme": {
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System"
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backHome": "Go back to homepage"
   }
 }

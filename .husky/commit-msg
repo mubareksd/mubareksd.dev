@@ -1,0 +1,4 @@
+printf "\n⏳ Check Commit Message\n"
+pnpm commitlint ${1}
+
+printf "\n✅ commit-msg OK\n\n"
