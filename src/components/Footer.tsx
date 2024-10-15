@@ -15,6 +15,7 @@ export default function Footer() {
           <a
             href="https://github.com/mubareksd"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-primary/60 hover:text-primary"
           >
             <Github className="h-5 w-5" />
@@ -23,6 +24,7 @@ export default function Footer() {
           <a
             href="https://linkedin.com/in/mubareksd"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-primary/60 hover:text-primary"
           >
             <Linkedin className="h-5 w-5" />

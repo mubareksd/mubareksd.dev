@@ -41,6 +41,13 @@
   },
   "experience": {
     "title": "الخبرة العملية",
+    "present": "حالياً",
+    "date": "{date, date, ::MMM yyyy}",
+    "duration": {
+      "years": "{count, plural, one {سنة واحدة} two {سنتان} few {# سنوات} many {# سنة} other {# سنة}}",
+      "months": "{count, plural, one {شهر واحد} two {شهران} few {# أشهر} many {# شهراً} other {# شهر}}",
+      "days": "{count, plural, one {يوم واحد} two {يومان} few {# أيام} many {# يوماً} other {# يوم}}"
+    },
     "jobs": [
       {
         "company": "هارون كومبيوتر",

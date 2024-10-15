@@ -21,14 +21,7 @@ const languageFlags = {
   ar: '🇸🇦',
 };
 
-const sections = [
-  'about',
-  'education',
-  'experience',
-  'skills',
-  // "projects",
-  // "contact"
-];
+const sections = ['about', 'education', 'experience', 'skills'];
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -192,8 +185,6 @@ export default function Header() {
             <NavLink href="#education">{t('education')}</NavLink>
             <NavLink href="#experience">{t('experience')}</NavLink>
             <NavLink href="#skills">{t('skills')}</NavLink>
-            {/* <NavLink href="#projects">{t("projects")}</NavLink> */}
-            {/* <NavLink href="#contact">{t("contact")}</NavLink> */}
             <Button className="bg-primary text-white hover:bg-primary/90">
               {t('downloadCV')}
             </Button>

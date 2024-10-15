@@ -41,6 +41,13 @@
   },
   "experience": {
     "title": "Work Experience",
+    "present": "Present",
+    "date": "{date, date, ::MMM yyyy}",
+    "duration": {
+      "years": "{count, plural, one {# year} other {# years}}",
+      "months": "{count, plural, one {# month} other {# months}}",
+      "days": "{count, plural, one {# day} other {# days}}"
+    },
     "jobs": [
       {
         "company": "Haron Computer",

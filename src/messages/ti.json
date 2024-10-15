@@ -41,6 +41,13 @@
   },
   "experience": {
     "title": "ናይ ስራሕ ተሞክሮ",
+    "present": "ሕጂ",
+    "date": "{date, date, ::MMM yyyy}",
+    "duration": {
+      "years": "{count, plural, one {# ዓመት} other {# ዓመታት}}",
+      "months": "{count, plural, one {# ወርሒ} other {# ኣዋርሕ}}",
+      "days": "{count, plural, one {# መዓልቲ} other {# መዓልታት}}"
+    },
     "jobs": [
       {
         "company": "ሃሮን ኮምፒዩተር",

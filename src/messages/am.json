@@ -41,6 +41,13 @@
   },
   "experience": {
     "title": "የስራ ልምድ",
+    "present": "አሁን",
+    "date": "{date, date, ::MMM yyyy}",
+    "duration": {
+      "years": "{count, plural, one {# ዓመት} other {# ዓመታት}}",
+      "months": "{count, plural, one {# ወር} other {# ወራት}}",
+      "days": "{count, plural, one {# ቀን} other {# ቀናት}}"
+    },
     "jobs": [
       {
         "company": "ሃሮን ኮምፒውተር",
