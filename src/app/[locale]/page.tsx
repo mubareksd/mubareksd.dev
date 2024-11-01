@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
 export default function Home({
   params: { locale },
@@ -11,7 +11,7 @@ export default function Home({
     locale: string;
   };
 }) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   return (
     <div className="w-full space-y-16 py-16">
       <Hero />

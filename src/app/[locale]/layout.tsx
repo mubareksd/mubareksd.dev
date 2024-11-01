@@ -3,7 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { routing } from '@/i18n/routing';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -16,7 +16,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   let messages;
   try {
     messages = (await import(`@/messages/${locale}.json`)).default;
