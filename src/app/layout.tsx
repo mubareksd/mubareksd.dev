@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { Lexend_Deca } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Lexend_Deca({ subsets: ['latin'] });
 
@@ -51,6 +52,7 @@ export default function RootLayout({
           </a>
           <main id="main-content">{children}</main>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
