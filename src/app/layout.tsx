@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Lexend_Deca } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Analytics } from '@vercel/analytics/react';
+import { env } from '@/env.mjs';
 
 const inter = Lexend_Deca({ subsets: ['latin'] });
 
@@ -43,7 +44,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const maintenanceMode = process.env.MAINTENANCE_mode === '1';
+  const maintenanceMode = env.MAINTENANCE_MODE === '1';
 
   if (maintenanceMode) {
     return (

@@ -1,0 +1,7 @@
+# ---------------------------------------------------------------------
+# This file is used to define the environment variables for the app.
+# ---------------------------------------------------------------------
+NEXT_PUBLIC_APP_URL = 'host_name';
+NEXT_PUBLIC_APP_NAME = 'app_name';
+NEXT_PUBLIC_APP_VER = 'app_version';
+MAINTENANCE_MODE = '1'
