@@ -10,7 +10,7 @@ const experiences = [
     position: 'Lead Software Developer',
     location: 'Addis Ababa, Ethiopia',
     startDate: new Date('2024-02-01'),
-    endDate: null,
+    endDate: new Date('2025-09-05'),
     responsibilities: [
       'responsibility1',
       'responsibility2',
