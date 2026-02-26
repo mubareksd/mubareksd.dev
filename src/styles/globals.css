@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config '../../tailwind.config.ts';
+@import 'tailwindcss';
 
 @layer base {
   :root {
@@ -90,7 +89,7 @@
 }
 
 .input-focus {
-  @apply focus:border-primary focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+  @apply focus:border-primary focus:ring-2 focus:ring-primary/50;
 }
 
 .button-primary {
@@ -201,7 +200,7 @@
 
 /* Accessibility improvements */
 :focus {
-  @apply outline-none ring-2 ring-primary ring-opacity-50;
+  @apply outline-none ring-2 ring-primary/50;
 }
 
 .sr-only {

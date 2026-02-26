@@ -1,11 +1,14 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Lexend_Deca } from 'next/font/google';
+import localFont from 'next/font/local';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Analytics } from '@vercel/analytics/react';
 import { env } from '@/env.mjs';
 
-const inter = Lexend_Deca({ subsets: ['latin'] });
+const inter = localFont({
+  src: './fonts/GeistVF.woff',
+  variable: '--font-geist-sans',
+});
 
 export const metadata: Metadata = {
   title: 'Mubarek Seid Juhar - Software Engineer Portfolio',

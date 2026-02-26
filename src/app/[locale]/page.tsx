@@ -4,13 +4,12 @@ import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
 import { setRequestLocale } from 'next-intl/server';
 
-export default function Home({
-  params: { locale },
+export default async function Home({
+  params,
 }: {
-  params: {
-    locale: string;
-  };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   return (
     <div className="w-full space-y-16 py-16">
