@@ -5,20 +5,20 @@ import { Briefcase } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const experiences = [
-  {
-    company: 'Kinet Systems',
-    position: 'Co-Founder',
-    location: 'Addis Ababa, Ethiopia',
-    startDate: new Date('2025-09-06'),
-    endDate: null,
-    responsibilities: [
-      'responsibility1',
-      'responsibility2',
-      'responsibility3',
-      'responsibility4',
-      'responsibility5',
-    ],
-  },
+  // {
+  //   company: 'Kinet Systems',
+  //   position: 'Co-Founder',
+  //   location: 'Addis Ababa, Ethiopia',
+  //   startDate: new Date('2025-09-06'),
+  //   endDate: null,
+  //   responsibilities: [
+  //     'responsibility1',
+  //     'responsibility2',
+  //     'responsibility3',
+  //     'responsibility4',
+  //     'responsibility5',
+  //   ],
+  // },
   {
     company: 'Haron Computer',
     position: 'Lead Software Developer',
