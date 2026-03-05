@@ -85,7 +85,7 @@ export default function Hero() {
             <span className="sr-only">Twitter</span>
           </Button>
         </Link>
-        <Link href="mailto:mubarek.juhar@kinet.et">
+        <Link href="mailto:mubareksd@gmail.com">
           <Button
             variant="outline"
             size="icon"
