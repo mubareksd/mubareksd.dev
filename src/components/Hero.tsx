@@ -95,7 +95,7 @@ export default function Hero() {
             <span className="sr-only">Email</span>
           </Button>
         </Link>
-        <Link href="tel:+251951410010">
+        <Link href="tel:+251904206733">
           <Button
             variant="outline"
             size="icon"
