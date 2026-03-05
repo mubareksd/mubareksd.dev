@@ -50,17 +50,6 @@
     },
     "jobs": [
       {
-        "company": "Kinet Systems",
-        "position": "Co-Founder",
-        "location": "Addis Ababa, Ethiopia",
-        "period": "09/2025 - Present",
-        "responsibility1": "Spearheaded the development of web applications using Python, Flask, Frappe, and ERPNext",
-        "responsibility2": "Utilized Jinja templates for front-end development, ensuring seamless user interfaces",
-        "responsibility3": "Implemented best practices in software development to ensure efficiency and maintainability",
-        "responsibility4": "Collaborated with stakeholders to design and deploy scalable solutions",
-        "responsibility5": "Led a team of software engineers in project development and implementation"
-      },
-      {
         "company": "Haron Computer",
         "position": "Lead Software Developer",
         "location": "Addis Ababa, Ethiopia",
