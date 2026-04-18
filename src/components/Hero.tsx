@@ -71,20 +71,6 @@ export default function Hero() {
             <span className="sr-only">LinkedIn</span>
           </Button>
         </Link>
-        <Link
-          href="https://twitter.com/mubareksd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button
-            variant="outline"
-            size="icon"
-            className="text-primary hover:text-primary hover:border-primary"
-          >
-            <Twitter className="h-5 w-5" />
-            <span className="sr-only">Twitter</span>
-          </Button>
-        </Link>
         <Link href="mailto:mubareksd@gmail.com">
           <Button
             variant="outline"
