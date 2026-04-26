@@ -65,7 +65,7 @@ export default function Experience() {
   }
 
   return (
-    <section id="experience" className="container py-12">
+    <section id="experience" className="container py-12 scroll-mt-16">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-primary">
         {t('title')}
       </h2>

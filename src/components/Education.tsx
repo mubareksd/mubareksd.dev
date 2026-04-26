@@ -17,7 +17,7 @@ export default function Education() {
   const t = useTranslations('education');
 
   return (
-    <section id="education" className="container py-12">
+    <section id="education" className="container py-12 scroll-mt-16">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-primary">
         {t('title')}
       </h2>

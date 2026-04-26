@@ -108,7 +108,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link className="flex items-center space-x-2" href="/">
-          <span className="font-bold text-xl text-primary">MSD</span>
+          {/* <span className="font-bold text-xl text-primary">MubarekSD</span> */}
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           <NavLink href="#about">{t('about')}</NavLink>
@@ -119,7 +119,7 @@ export default function Header() {
           {/* <NavLink href="#contact">{t("contact")}</NavLink> */}
         </nav>
         <div className="flex items-center space-x-4">
-          <DropdownMenu>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
                 <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -141,8 +141,8 @@ export default function Header() {
                 <span>{t('theme.system')}</span>
               </DropdownMenuItem>
             </DropdownMenuContent>
-          </DropdownMenu>
-          <DropdownMenu>
+          </DropdownMenu> */}
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline">
                 {languageFlags[currentLocale as keyof typeof languageFlags]}{' '}
@@ -163,7 +163,7 @@ export default function Header() {
                 {languageFlags.ar} العربية
               </DropdownMenuItem>
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
           <Button
             variant="ghost"
             size="icon"
@@ -185,9 +185,9 @@ export default function Header() {
             <NavLink href="#education">{t('education')}</NavLink>
             <NavLink href="#experience">{t('experience')}</NavLink>
             <NavLink href="#skills">{t('skills')}</NavLink>
-            <Button className="bg-primary text-white hover:bg-primary/90">
+            {/* <Button className="bg-primary text-white hover:bg-primary/90">
               {t('downloadCV')}
-            </Button>
+            </Button> */}
           </nav>
         </div>
       )}

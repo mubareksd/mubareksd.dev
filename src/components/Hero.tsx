@@ -10,9 +10,9 @@ export default function Hero() {
   return (
     <section
       id="about"
-      className="container flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] py-12 text-center"
+      className="container flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] py-12 text-center scroll-mt-16"
     >
-      <div className="w-32 h-32 rounded-full overflow-hidden mb-8 border-4 border-primary">
+      {/* <div className="w-32 h-32 rounded-full overflow-hidden mb-8 border-4 border-primary">
         <Image
           src="/logo.svg"
           alt="Mubarek Seid Juhar"
@@ -20,7 +20,7 @@ export default function Hero() {
           height={128}
           className="w-full h-full object-cover"
         />
-      </div>
+      </div> */}
       <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
         {t('title')}
       </h1>

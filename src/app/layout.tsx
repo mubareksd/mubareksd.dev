@@ -53,7 +53,7 @@ export default function RootLayout({
     return (
       <html lang="en" suppressHydrationWarning>
         <body className={inter.className}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             <div className="flex flex-col items-center justify-center h-screen">
               <h1 className="text-4xl font-bold text-primary-800 mb-4">
                 Under Maintenance
