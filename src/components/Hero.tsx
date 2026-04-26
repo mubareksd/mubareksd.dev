@@ -44,20 +44,6 @@ export default function Hero() {
           </Button>
         </Link>
         <Link
-          href="https://gitlab.com/mubareksd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button
-            variant="outline"
-            size="icon"
-            className="text-primary hover:text-primary hover:border-primary"
-          >
-            <Gitlab className="h-5 w-5" />
-            <span className="sr-only">GitLab</span>
-          </Button>
-        </Link>
-        <Link
           href="https://linkedin.com/in/mubareksd"
           target="_blank"
           rel="noopener noreferrer"
