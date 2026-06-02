@@ -115,7 +115,7 @@ export default function Header() {
           <NavLink href="#education">{t('education')}</NavLink>
           <NavLink href="#experience">{t('experience')}</NavLink>
           <NavLink href="#skills">{t('skills')}</NavLink>
-          {/* <NavLink href="#projects">{t("projects")}</NavLink> */}
+          <NavLink href="#projects">{t('projects')}</NavLink>
           {/* <NavLink href="#contact">{t("contact")}</NavLink> */}
         </nav>
         <div className="flex items-center space-x-4">
